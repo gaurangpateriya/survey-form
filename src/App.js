@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'tachyons';
+import NavigationBar from './components/NavigationBar/NavigationBar'
+import DesktopImage from './components/DesktopImage/DesktopImage'
+import ImageText from './components/ImageText/ImageText'
+import Survey from './components/Survey/Survey'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <NavigationBar/>
+    <DesktopImage/>
+    <div style ={{display:'flex', justifyContent:'space-between',marginRight:'120px'}}>
+      <ImageText/>
+      <Survey/>
+    </div>
+    <div style ={{height:'1000px'}}/>
     </div>
   );
 }

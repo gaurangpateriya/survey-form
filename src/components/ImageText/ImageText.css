@@ -1,0 +1,41 @@
+
+.section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 100px;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.desktoptext{
+  margin-top: 50px;
+  position: relative;
+  text-align: left;
+  margin-bottom: 36px;
+  padding-left: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  z-index: 2;
+}
+
+
+.route {
+  margin-top: 50px;
+  text-align: left;
+  margin-bottom: 36px;
+  padding-left: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+position: relative;
+
+
+  line-height: 1.5;
+  color: #fff;
+  z-index: 2;
+
+}
